@@ -11,6 +11,7 @@
     "delete:docs": "del docs",
     "copy:dist": "copyfiles dist/auth-app/* ./docs -f",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
+
   },
   "private": true,
   "dependencies": {
